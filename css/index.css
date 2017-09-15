@@ -1,0 +1,79 @@
+body{
+    background-image: url('../img/3898.jpg')
+}
+#ipt{
+    position: absolute;
+    left:200px;
+    top:150px;
+    width:200px;
+    height:40px;
+    font-size:20px;
+    border:none;
+    outline:none;
+    background-color: transparent;
+
+}
+.local{
+    position: absolute;
+    right:200px;
+    top:100px;
+    color: #fff;
+    font-size: 25px;
+    margin-top: 6px;
+    letter-spacing: 2px;
+}
+.weather{
+background-color: rgba(35,35,35,0.7);
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height:200px;
+}
+#today{
+    width:30%;
+    height:150px;
+    position:absolute;
+    top:25px;
+    text-align: center;
+}
+#info,#img-wind{
+    display: inline-block;
+}
+#img-wind img{
+    width:80px;
+    height:80px;
+}
+#temp{
+    height:80px;
+    font-size: 50px;
+    line-height: 80px;
+}
+#info{
+    margin-right:30px;
+    color: #ffffff;
+}
+#img-wind{
+    color:#fff;
+}
+.future{
+    color:#fff;
+    position: absolute;
+    left:35%;
+    right:0px;
+    bottom:0px;
+    width:65%;
+    height:200px;
+    display:table;
+    text-align: center;
+}
+.f-forecast{
+    display: table-cell;
+    vertical-align: middle;
+}
+.f-img{
+    width:50px;
+    height:50px;
+}
+.f-temp{
+    margin-bottom:50px;
+}
